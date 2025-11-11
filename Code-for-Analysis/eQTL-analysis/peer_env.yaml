@@ -1,0 +1,9 @@
+name: peer_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base
+  - bioconda::r-peer
+  - r-argparser
+  - r-irkernel
